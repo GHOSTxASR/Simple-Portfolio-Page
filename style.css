@@ -1,0 +1,153 @@
+body{
+    
+    background-color: black;
+    background-image: url('background2.jpg');
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px;
+    margin-left: 0%;
+    flex-direction: column;
+}
+h5{
+    color: aliceblue;
+    font-size: 15px;
+    font-family: Varela Round;
+    font-style: normal;
+    font-weight: 200;
+    margin-left: 20px;
+    padding-top: 0px;
+    margin-top: 5px;
+}
+#main{
+  /*background-color: royalblue;*/
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  height: 600px;
+  width: 1500px;
+}
+#content{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: aliceblue;
+  
+    background-color: rgba(41, 41, 41, 0.248);
+    box-shadow: 0 0 10px 2px rgba(41, 41, 41, 0.248);
+    border-radius: 45px;
+    width: 800px;
+    height: 500px;
+    padding-top: 0px;
+    margin-right: 150px;
+    font-family: Varela Round;
+    font-style: normal;
+    font-weight: 700;
+    flex-direction: column;
+    h1{
+        font-size: 80px;
+        margin-bottom: 20px;
+    }
+    h2{
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+}
+#picture{
+    display: flex;
+    color: aliceblue;
+    background-color: rgb(127, 129, 255);
+    width: 400px;
+    height: 400px;
+    /*border : 1px solid rgb(255, 0, 0);*/
+    border-radius: 100%;
+    background-image: url('pfp1.jpg');
+    background-repeat: no-repeat, repeat;
+    background-size: cover;
+    background-position: center;
+    /*box-shadow: 0 0 10px 5px rgba(84, 82, 82, 0.5);*/
+}
+#connections{
+  padding: 0px;
+  /*background-color: royalblue;*/
+  justify-content: space-evenly;
+  justify-content: space-around;
+  width: 1500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+.links{
+  padding-left: 30px;
+  color: aliceblue;
+  font-size: 20px;
+  font-family: Varela Round;
+}
+.varela-round-regular {
+  font-family: "Varela Round", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+a:link {
+  color: rgb(252, 252, 252);
+  background-color: transparent;
+  text-decoration: none;
+  border-radius: 2px;
+}
+a:visited {
+  color: #690e89;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:hover {
+  color: rgb(255, 255, 255);
+  transition: color 0.2s ease-out;
+  background-color: transparent;
+  text-decoration: none;
+  box-shadow: 0 0 10px 2px rgba(84, 82, 82, 0.5);
+  transition: box-shadow 0.2s ease-out;
+}
+
+#content:hover{
+  box-shadow: 0 0 10px 2px rgba(84, 82, 82, 0.5);
+  transition: box-shadow 0.5s ease-out;
+}
+#picture:hover{
+  
+  box-shadow: 0 0 10px 5px rgba(84, 82, 82, 0.5);
+  transition: box-shadow 0.5s ease-out;
+}
+
+
+
+
+
+@keyframes snowfall {
+  from {
+      transform: translateY(0);
+      opacity: 1;
+  }
+  to {
+      transform: translateY(95vh);
+      opacity: 0;
+  }
+
+  
+}
+
+.snowflake {
+  position: absolute;
+  top: -10px;
+  color: white;
+  font-size: 10px;
+  user-select: none;
+  opacity: 0.8;
+  animation: snowfall 5s linear infinite;
+}
+
