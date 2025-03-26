@@ -1,6 +1,6 @@
 # Ashmit's Portfolio 🎨💻  
 
-A responsive portfolio website showcasing my work, skills, and social links. Designed with HTML, CSS, and JavaScript, featuring an adaptive layout for desktops and mobile devices, along with a dynamic snowfall effect.  
+A responsive portfolio website showcasing my work, skills, and social links. Designed with HTML, CSS, and JavaScript, featuring an adaptive layout for desktops devices (currently), along with a dynamic snowfall effect.  
 
 ## 🚀 Features  
 - **Responsive Design** – Works on desktops, tablets, and mobile devices  
